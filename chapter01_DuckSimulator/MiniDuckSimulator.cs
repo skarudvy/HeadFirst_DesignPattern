@@ -13,6 +13,11 @@ namespace chapter01_DuckSimulator
             Duck mallard = new MallardDuck();
             mallard.performFly();
             mallard.performQuack();
+
+            Duck model = new ModelDuck();
+            model.performFly();
+            model.SetFlyBehavior = new FlyRocketPowered();
+            model.performFly();
         }
     }
 }

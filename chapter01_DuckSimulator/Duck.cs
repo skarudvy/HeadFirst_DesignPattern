@@ -11,6 +11,22 @@ namespace chapter01_DuckSimulator
         public FlyBehavior flyBehavior;
         public QuackBehavior quackBehavior;
 
+        public FlyBehavior SetFlyBehavior
+        {
+            set
+            {
+                this.flyBehavior = value;
+            }
+        }
+
+        public QuackBehavior SetQuackBehavior
+        {
+            set
+            {
+                this.quackBehavior = value;
+            }
+        }
+
         public Duck()
         {
 

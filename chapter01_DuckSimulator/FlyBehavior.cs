@@ -27,4 +27,11 @@ namespace chapter01_DuckSimulator
         }
     }
 
+    public class FlyRocketPowered : FlyBehavior
+    {
+        public void fly()
+        {
+            Console.WriteLine("로켓 추진으로 날아갑니다");
+        }
+    }
 }
