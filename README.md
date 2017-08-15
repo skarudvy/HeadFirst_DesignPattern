@@ -1,1 +1,3 @@
-# HeadFirst_DesignPattern
+Chapter1 
+- strategy pattern
+
